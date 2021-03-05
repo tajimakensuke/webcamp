@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual {
+  height: 800px;
+  margin: 0 100px;
+}
+.main-visual > div {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.sakura {
+  background-image: url(img/box1.jpg);
+}
+.umi {
+  background-image: url(img/box2.jpg);
+}
+.kouyou {
+  background-image: url(img/box3.jpg);
+}
+.iwa {
+  background-image: url(img/box4.jpg);
+}
