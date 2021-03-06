@@ -57,3 +57,29 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+/*スマフォ*/
+@media screen and (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .step-box:first-child {
+    margin-top: 50px;
+  }
+  .step-box:last-child {
+    margin-bottom: 50px;
+    margin: 0px auto;
+  }
+  .step-box:nth-child(1),
+  .step-box:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .step-box {
+    width: 90%;
+    margin: 0px auto;
+  }
+}
